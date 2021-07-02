@@ -1,0 +1,1 @@
+mvn clean package deploy -Dartifactory_server_ip=18.157.161.147
