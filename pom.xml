@@ -29,12 +29,12 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<url>http://18.157.161.147:8081/artifactory/lary-libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+			<url>http://${artifactory_server_ip}:8081/artifactory/lary-libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
